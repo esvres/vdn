@@ -35,8 +35,7 @@ public class TrayContext : ApplicationContext
 
     private void UpdateDesktopNumber(VirtualDesktop desktop)
     {
-        int desktopNumber = desktop.GetNumber();
-        SetIcon(desktopNumber);
+        SetIcon(desktop.GetNumber());
     }
 
     private void SetIcon(int desktopNumber)
